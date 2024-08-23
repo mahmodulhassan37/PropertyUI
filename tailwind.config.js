@@ -2,7 +2,9 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        'discussBanner': "url('/assets/bg.jpg')",
+      },
     },
     plugins: [],
   }
